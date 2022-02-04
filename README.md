@@ -2,7 +2,7 @@
 
 ## `npx desinas`
 
-> Get to know Ahmad Awais using your command line with Node.js
+> Get to know Demetrios Kalcassinas using this command made with nodeJS
 
 ## Usage
 

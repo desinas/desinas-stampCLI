@@ -7,5 +7,18 @@
 	},
 	"dependencies": {
 		"cli-welcome": "^2.2.0"
+	},
+	"keywords": [
+		"desinas",
+		"kalcassinas",
+		"demetrios kalcassinas"
+	],
+	"license": "GNU",
+	"main": "index.js",
+	"repository": "desinas/desinas-stampCLI",
+	"author": {
+		"name": "Demetrios Kalcassinas",
+		"email": "disinas@icloud.com",
+		"url": "https://linkedin.com/in/desinas/"
 	}
 }

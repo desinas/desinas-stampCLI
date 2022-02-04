@@ -1,24 +1,30 @@
 #!/usr/bin/env node
 const pkgJSON = require('./package.json');
 const welcome = require('cli-welcome');
+const chalk = require('chalk');
+const log = console.log; 
+const dim = chalk.dim;
+const italic = chalk.italic;
+const twitterClr = chalk.hex(`#1da1f2`).bold.inverse;
+const githubClr = chalk.hex(`#6cc644`).bold.inverse;
+const purple = chalk.hex(`#6937FF`).bold.inverse;
 
 welcome({
-	title: pkgJSON.name,
+	title: `Demetrios Kalcassinas`,
 	tagLine: `Hello, very nice to meet here!`,
 	description: pkgJSON.description,
 	version: pkgJSON.version,
-	bgColor: `#FADC00`,
+	bgColor: `#6937FF`,
 	color: `#000000`,
 	bold: true,
 	clear: true,
 });
 
-console.log(`
-Demetrios Kalcassinas
+log(`${italic(
+	`Utilised React as a Front-End Web Developer, building stunning user experiences for the Web with the evolving technology.`
+)}
 
-Utilised React as a Front-End Web Developer, building stunning user experiences for the Web with the evolving technology.
-
-🐦 Twitter:   https://twitter.com/dikalcas
-📖 GitHub:    https://github.com/desinas
-😎 LinkedIn:  https://linkedin.com/in/desinas
+${twitterClr(` Twitter `)} ${dim(`https://twitter.com/dikalcas`)}
+${githubClr(` GitHub `)}  ${dim(`https://github.com/desinas`)}
+${purple(` Blog `)}    ${dim(`https://linkedin.com/in/desinas`)}
 `);

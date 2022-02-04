@@ -1,6 +1,6 @@
 # desinas info-stamp CLI
 
-## `npx awais`
+## `npx desinas`
 
 > Get to know Ahmad Awais using your command line with Node.js
 

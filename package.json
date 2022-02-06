@@ -1,6 +1,6 @@
 {
 	"name": "desinas",
-	"version": "1.4.2",
+	"version": "1.4.3",
 	"description": "Get to know Demetrios Kalcassinas via `npx desinas`.",
 	"bin": {
 		"desinas": "index.js"

@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const chalk = require('chalk');
 const alert = require('cli-alerts');
+const handleError = require('cli-handle-error');
 
 const init = require('./utils/init');
 
@@ -23,4 +24,11 @@ const purple = chalk.hex(`#6937FF`).bold.inverse;
 	`);
 
 	alert({ type: 'info', msg: `Check out! I am ready to help you build your app.` });
+
+	let err;
+	err = false;
+	// err = new Error(`Blog API`); // OR Error can be a real error.
+	if (err) {
+		handleError(`Blog API is down.`, err, true, false);
+	}
 })();

@@ -8,8 +8,8 @@ module.exports = () => {
 	unhandled();
 
 	welcome({
-		title: `Demetrios Kalcassinas`,
-		tagLine: `Hello, very nice to meet here!`,
+		title: `Ahmad Awais`,
+		tagLine: `Howdy, nice to meet ya!`,
 		description: pkgJSON.description,
 		version: pkgJSON.version,
 		bgColor: `#6937FF`,
